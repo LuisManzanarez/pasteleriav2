@@ -1,0 +1,363 @@
+body{
+    background-image: url(assets/black\ space.jpg);
+}
+h1{
+    color: rgb(95, 19, 236);
+}
+h2{
+    color: rgb(0, 255, 255);
+}
+p{
+    font-size: 130%;
+    color: rgb(224, 226, 84);
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container img{
+    position: absolute;
+    top: 1cm;
+    left: 15%;
+    width: 6%;
+}
+.fondo_logo{
+    position: absolute;
+    top: 1cm;
+    left: 15%;
+    width: 6%;
+    height: 12%;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+ul {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 68%;
+    font-size: .80cm;
+    list-style-type: none;
+    margin: auto;
+    padding: 1;
+    overflow: hidden;
+   /*background-color:*/
+}
+li {
+    float:right
+    
+}
+li a {
+    display: block;
+    color: rgb(121, 119, 119);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(13, 149, 212);
+}
+
+.active {
+    background-color:rgb(25, 25, 202)
+}
+
+
+.contenedor{
+    position: absolute;
+    top: 5cm;
+    left: 15%;
+    width: 70%;
+    height: 500px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+.rectangulo_gris{
+    position: absolute;
+    top: 2cm;
+    left: 3%;
+    width: 90%;
+    height: 370px;
+    border: 1px;
+    background-color: rgba(51, 51, 51, 0.377);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.contenedor .presentation_picture{
+    position: absolute;
+    top:3cm;
+    left: 60%;
+    height: 60%;
+    border: 5px solid rgba(100, 121, 237, 0.753);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0); 
+}
+.title{
+    position: absolute;
+    top: 2cm;
+    left: 4%;
+    font-size: 350%;
+}
+.subtitle{
+    position: absolute;
+    top: 5cm;
+    left: 5%;
+    font-size:  1.5rem;
+    font-weight: 300;
+    margin: 15px 0;
+}
+.boton_pedido{
+    position: absolute;
+    top: 7.2cm;
+    left: 26%;
+    display: inline-block;
+    background: rgb(73, 22, 212);
+    padding: var(--boton-padding);
+    color: var(--color-primary);
+    text-decoration: rgb(27, 108, 146);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+/*mid*/
+
+.mid{
+    position: absolute;
+    top: 19cm;
+    left: 15%;
+    width: 70%;
+    height: 150px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+.ufo_gif{
+    position: absolute;
+    top: 0cm;
+    left: 96%;
+    height: 250px;
+}
+.title_2 {
+    text-align: center;
+    color: rgb(255, 238, 0);
+}
+.subtitle_2{
+    text-align: center;
+    color: rgb(251, 255, 0);
+}
+.rectangulo_fondo{
+    position: absolute;
+    top: 14cm;
+    left: 15%;
+    width: 70%;
+    height: 67%;
+    border: 1px;
+    background-color: rgba(51, 51, 51, 0.377);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+/*pastel*/
+.pastel_1{ 
+    position: absolute;
+    top: 26cm;
+    left: 20%;
+    width: 60%;
+    height: 350px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+.pastel_title_1{
+    position: absolute;
+    left: 10%;
+}
+
+.text_1{
+    font-size: 150%;
+    position: absolute;
+    top: 2cm;
+    left: 10%;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.pic_pastel_1{
+    position: absolute;
+    top: 1cm;
+    left: 50%;
+    height: 80%;
+    border: 5px solid rgba(100, 121, 237, 0.705);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.cambio_sabor{
+    position: absolute;
+    top: 6cm;
+    left: 1%;
+}
+.sabor_costo{
+    position: absolute;
+    top: 7cm;
+    left: 6cm;
+}
+.sabor_costo_2{
+    position: absolute;
+    top: 7.7cm;
+    left: 6cm;
+}
+
+.fondo_pastel_1{
+    top: 1cm;
+    left: 0%;
+    width: 115%;
+    height: 98%;
+    border: 1px;
+    background-color: rgba(56, 55, 55, 0.616);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.pastel_2{ 
+    position: absolute;
+    top: 37cm;
+    left: 20%;
+    width: 60%;
+    height: 350px;
+    margin: 0px auto;
+    border: 1px solid;
+    
+}
+.pic_pastel_2{
+    position: absolute;
+    top: 1cm;
+    left: 50%;
+    height: 79%;
+    border: 5px solid rgba(100, 121, 237, 0.788);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.pastel_title_2{
+    position: absolute;
+    left: 10%;
+}
+.text_2{
+    font-size: 150%;
+    position: absolute;
+    top: 2cm;
+    left: 10%;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+/*ingredientes extras*/
+section_5{
+    position: absolute;
+    top: 47cm;
+    left: 20%;
+    width: 60%;
+    height: 350px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+.titulo_extras{
+    text-align: center;
+}
+
+.extra_4{
+    position: absolute;
+    top: 7.5cm;
+    left: 15%;
+}
+.extra_3{
+    position: absolute;
+    top: 7.5cm;
+    left: 39%;
+}
+.extra_2{
+    position: absolute;
+    top: 7.5cm;
+    left: 67%;
+}
+.extra_1{
+    position: absolute;
+    top: 7.5cm;
+    left: 96%;
+}
+
+.extra_img_4{
+    position: absolute;
+    top: 2.6cm;
+    left: 13%;
+    height: 60%;
+}
+.extra_img_3{
+    position: absolute;
+    top: 2.6cm;
+    left: 40%;
+    height: 60%;
+}
+.extra_img_2{
+    position: absolute;
+    top: 2.6cm;
+    left: 65%;
+    height: 60%;
+}
+.extra_img_1{
+    position: absolute;
+    top: 3cm;
+    left: 90%;
+    height: 35%;
+}
+
+
+/*footer*/
+.footer{
+    background-color: var(--color-primary);
+}
+.container_footer_grid{
+    position: absolute;
+    top: 58cm;
+    left: 0cm;
+    height: 5cm;
+    width: 100%;
+    background-color: rgb(120, 82, 192);
+}
+
+.footer_links{
+    position: absolute;
+    top: 2cm;
+    left: 15%;
+}
+
+.footer_grid{
+
+    height: 2cm;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    align-items: center;
+ }
+
+ .footer__title{
+     position: absolute;
+     top: 0cm;
+     left: 65%;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    
+ }
+
+ .footer__icons{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .footer__container-icons{
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     color: #fff;
+     border-radius: 50%;
+
+ }
+
+ .footer__icons{
+    position: absolute;
+    top: 2cm;
+    left: 65%;
+     color: inherit;
+    font-size: 30px;
+    text-decoration: none;
+ }
+
